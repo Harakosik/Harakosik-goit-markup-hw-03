@@ -1,3 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
 :root {
   --background-dark-grey: #2F303A;
   --grey-color: #757575;
