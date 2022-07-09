@@ -23,7 +23,7 @@ html {
 body {
   font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-
+    margin: 0;
     }
 
 /* Цвет текста WebStudio */
@@ -80,6 +80,8 @@ body {
 }
 
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -118,6 +120,9 @@ ul {
   background-color: var(--background-dark-grey)
 }
 .hero-title {
+  outline: 2px solid tomato;
+  margin-top: 0;
+  margin-bottom: 0;
 font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -131,11 +136,18 @@ font-family: 'Roboto';
   color: var(--white-color)
 }
 
+/* button */
+
 .hero-btn {
  color: #FFFFFF;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
+  text-align: center;
+  min-width: 200px;
+  min-height: 50px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -148,6 +160,8 @@ background:#138cef;
 
 
 .about-title {
+  padding: 0;
+  margin: 0;
 font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -159,6 +173,8 @@ font-family: 'Roboto';
   color: var(--current-color-dark)
 }
 .about-item {
+   padding: 0;
+   margin: 0;
   font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -179,6 +195,8 @@ font-family: 'Roboto';
 
 
 .about-titlee {
+    padding: 0;
+    margin: 0;
   font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -197,6 +215,8 @@ font-family: 'Roboto';
   background: #F5F4FA;
 }
 .it-team {
+    padding: 0;
+    margin: 0;
   font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -209,6 +229,8 @@ font-family: 'Roboto';
 }
 
 .it {
+    padding: 0;
+    margin: 0;
   font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -222,6 +244,8 @@ font-family: 'Roboto';
 }
 
 .profession {
+    padding: 0;
+    margin: 0;
 font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -409,3 +433,43 @@ border-radius: 4px;
     letter-spacing: 0.06em;
     color: var(--current-color-dark)
 }
+
+
+
+
+/* box */
+
+.box {
+  margin-bottom: 50px;
+  border: 5px solid tomato;
+  padding: 20px;
+  margin: 20px;
+  outline: 2px solid tomato;
+}
+
+
+
+
+
+
+
+/* header cotainer */
+
+.header-container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+/* hero container */
+
+.hero-container {
+  width: 1565px;
+  padding-left: 17.5px;
+  padding-right:17.5px;
+  margin: 0 auto;
+}
+
