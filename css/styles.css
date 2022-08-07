@@ -460,10 +460,22 @@ border-radius: 4px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  text-align: center;
   /* margin-left: auto;
   margin-right: auto; */
 }
 
+.line-container {
+  margin: o auto;
+  width: 1600;
+  border: 1px solid #ECECEC;
+  position: absolute;
+    width: 1600px;
+    height: 0px;
+    left: 0px;
+    top: 80px;
+    outline: 2px solid tomato;
+}
 /* hero container */
 
 .hero-container {
@@ -471,5 +483,15 @@ border-radius: 4px;
   padding-left: 17.5px;
   padding-right:17.5px;
   margin: 0 auto;
+  text-align: center;
+}
+.hero-title {
+  text-align: center;
+  padding-left: 460px;
+  padding-right: 460px;
+
 }
 
+.portfolio {
+  margin: 0 auto;
+}
