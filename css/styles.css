@@ -453,7 +453,7 @@ border-radius: 4px;
 
 
 
-/* header cotainer */
+/* header container */
 
 .header-container {
   width: 1170px;
@@ -461,8 +461,8 @@ border-radius: 4px;
   padding-right: 15px;
   margin: 0 auto;
   text-align: center;
-  /* margin-left: auto;
-  margin-right: auto; */
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 .line-container {
@@ -493,5 +493,5 @@ border-radius: 4px;
 }
 
 .portfolio {
-  margin: 0 auto;
+  margin: 50px auto;
 }
