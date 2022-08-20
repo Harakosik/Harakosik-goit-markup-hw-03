@@ -23,7 +23,7 @@
     <!-- Header section -->
 
     <header class="header">
-      <div class="header-container">
+      <div class="container pege-header-container">
         <nav class="header-nav">
           <a class="logo-link" href="" lang="en">Web<span class="accent">Studio</span></a>
           <ul class="header-list">
@@ -38,21 +38,24 @@
             </li>
           </ul>
         </nav>
+        <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
       </div>
-      <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
 
     <!-- Main section -->
     <main>
       <!-- Hero section -->
-      <div class="hero-container">
-        <section class="hero">
+
+      <section class="hero">
+        <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="hero-btn" type="button">Заказать услугу</button>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <section class="about">
+        <div class="container">
         <ul>
           <li>
             <h2 class="about-title">Внимание к деталям</h2>
@@ -79,9 +82,12 @@
             </p>
           </li>
         </ul>
+        </div>
+        
       </section>
       <!-- About secyion -->
-      <section class="about-team">
+      <section class="about-team ">
+        <div class="container"
         <h2 class="about-titlee">Чем мы занимаемся</h2>
         <ul class="about-list">
           <li class="about-item">
@@ -112,10 +118,12 @@
             />
           </li>
         </ul>
+        </div>
       </section>
       <!-- Team section -->
       <section class="team">
-        <h3 class="it-team">Наша команда</h3>
+        <div class="container">
+          <h3 class="it-team">Наша команда</h3>
         <ul class="team-list">
           <li class="team-item">
             <img
@@ -164,19 +172,22 @@
             <h3 class="it">Михаил Ермаков</h3>
             <p class="profession" lang="en">UI Designer</p>
           </li>
-        </ul>
+        </ul></div>
+        
       </section>
     </main>
     <!-- Footer section -->
     <footer class="footer">
-      <a class="logo-link" href="" lang="en">Web<span class="logo-accent">Studio</span></a>
-      <address class="address">
-        г. Киев, пр-т Леси Украинки, 26
-        <ul>
-          <li><a class="address-mail" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="address-phone" href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="logo-link" href="" lang="en">Web<span class="logo-accent">Studio</span></a>
+        <address class="address">
+          г. Киев, пр-т Леси Украинки, 26
+          <ul>
+            <li><a class="address-mail" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="address-phone" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
