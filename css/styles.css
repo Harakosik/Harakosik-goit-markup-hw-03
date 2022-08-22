@@ -224,6 +224,7 @@ body {
 }
 
 .it {
+  width: auto;
   padding-top: 30px;
   padding-bottom: 10px;
   margin: 0;
@@ -240,7 +241,7 @@ body {
 }
 
 .profession {
-  width: 322px;
+  width: auto;
   padding-bottom: 30px;
   margin: 0;
   font-family: 'Roboto';
@@ -431,14 +432,6 @@ footer {
 
 /* box */
 
-.box {
-  margin-bottom: 50px;
-  border: 5px solid tomato;
-  padding: 20px;
-  margin: 20px;
-  outline: 2px solid tomato;
-}
-
 /* header container */
 .header-list {
   column-gap: 50px;
@@ -482,16 +475,12 @@ footer {
 }
 
 .line-container {
-  margin: o auto;
-  width: 1600;
   border: 1px solid #ececec;
-  position: absolute;
   width: 1600px;
-  height: 0px;
-  left: 0px;
-  top: 80px;
-  outline: 2px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /* hero container */
 
 .hero-btn {
@@ -505,6 +494,7 @@ footer {
 
 .hero {
   width: 1600px;
+  padding-top: 200px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -512,7 +502,6 @@ footer {
 .hero-title {
   text-align: center;
   width: 696px;
-
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -545,7 +534,6 @@ footer {
 }
 .team-list {
   display: flex;
-  align-items: center;
   gap: 30px;
 }
 
@@ -633,22 +621,26 @@ section {
 /* resset */
 
 /* =======portfolio==============*/
-.list-container {
+
+.list-but {
+  display: inline-flex;
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
   padding-bottom: 50px;
-  display: flex;
   align-items: center;
   column-gap: 8px;
 }
+
 .img-container {
 }
+
 .img-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .img-portfolio {
   background-color: #e5e5e5;
 }
@@ -657,7 +649,4 @@ section {
   width: 322px;
   margin-top: 20px;
   margin-bottom: 4px;
-}
-.team-img {
-  width: 270px;
 }
