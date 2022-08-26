@@ -20,7 +20,7 @@
   <body class="page">
     <!-- Heder section -->
     <header class="header">
-      <div class="container pege-header-container">
+      <div class="container main-nav">
         <nav class="header-nav">
           <a class="logo-link" href="" lang="en">Web<span class="accent">Studio</span></a>
           <ul class="header-list">
@@ -35,11 +35,16 @@
             </li>
           </ul>
         </nav>
-        <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul class="kontakt">
+          <li class="item">
+            <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
-
     <div class="line-container"></div>
 
     <!-- Main section -->
@@ -49,7 +54,6 @@
 
       <section class="section portfolio">
         <div class="container">
-          <h1 class="portfolio"></h1>
           <ul class="list-but">
             <li><button class="all button current" type="button">Все</button></li>
             <li><button class="web button current" type="button">Веб-сайты</button></li>
@@ -63,19 +67,32 @@
         <div class="img-container container">
           <ul class="img-list">
             <li>
-              <img src="./images/works/img.jpeg" alt="ноутбук" width="370" height="294" />
+              <img
+                class="picture"
+                src="./images/works/img.jpeg"
+                alt="ноутбук"
+                width="370"
+                height="294"
+              />
               <h2 class="site">Технокряк</h2>
               <p class="profession" lang="ru">Веб-сайт</p>
             </li>
 
             <li>
-              <img src="./images/works/poster.jpeg" alt="баскетболисты" width="370" height="294" />
+              <img
+                class="picture"
+                src="./images/works/poster.jpeg"
+                alt="баскетболисты"
+                width="370"
+                height="294"
+              />
               <h2 class="site">Постер New Orlean vs Golden Star</h2>
               <p class="profession" lang="en">Дизайн</p>
             </li>
 
             <li>
               <img
+                class="picture"
                 src="./images/works/restourant.jpeg"
                 alt="баскетболисты"
                 width="370"
@@ -86,37 +103,68 @@
             </li>
 
             <li>
-              <img src="./images/works/prime.jpeg" alt="наушники" width="370" height="294" />
+              <img
+                class="picture"
+                src="./images/works/prime.jpeg"
+                alt="наушники"
+                width="370"
+                height="294"
+              />
               <h2 class="site">Проект Prime</h2>
               <p class="profession" lang="en">Маркетинг</p>
             </li>
 
             <li>
-              <img src="./images/works/boxes.jpeg" alt="две коробки" width="370" height="294" />
+              <img
+                class="picture"
+                src="./images/works/boxes.jpeg"
+                alt="две коробки"
+                width="370"
+                height="294"
+              />
               <h2 class="site">Проект Boxes</h2>
               <p class="profession" lang="en">Приложение</p>
             </li>
 
             <li>
-              <img src="./images/works/inspiration.jpeg" alt="компьютер" width="370" height="294" />
+              <img
+                class="picture"
+                src="./images/works/inspiration.jpeg"
+                alt="компьютер"
+                width="370"
+                height="294"
+              />
               <h2 class="site">Inspiration has no Borders</h2>
               <p class="profession" lang="en">Веб-сайт</p>
             </li>
 
             <li>
-              <img src="./images/works/izdanie.jpeg" alt="книга" width="370" height="294" />
+              <img
+                class="picture"
+                src="./images/works/izdanie.jpeg"
+                alt="книга"
+                width="370"
+                height="294"
+              />
               <h2 class="site">Издание Limited Edition</h2>
               <p class="profession" lang="en">Дизайн</p>
             </li>
 
             <li>
-              <img src="./images/works/lab.jpeg" alt="бирка с логотипом" width="370" height="294" />
+              <img
+                class="picture"
+                src="./images/works/lab.jpeg"
+                alt="бирка с логотипом"
+                width="370"
+                height="294"
+              />
               <h2 class="site">Проект LAB</h2>
               <p class="profession" lang="en">Маркетинг</p>
             </li>
 
             <li>
               <img
+                class="picture"
                 src="./images/works/growing-business.jpeg"
                 alt="ноутбук"
                 width="370"
@@ -130,8 +178,8 @@
       </section>
     </main>
     <!-- Footer section -->
-    <footer class="footer section">
-      <div class="footer-container">
+    <footer class="footer">
+      <div class="container">
         <a class="logo-link-footer" href="" lang="en">Web<span class="logo-accent">Studio</span></a>
         <address class="address">
           <p class="add">Киев, пр-т Леси Украинки, 26</p>
