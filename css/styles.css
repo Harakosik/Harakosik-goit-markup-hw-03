@@ -55,7 +55,7 @@ ul {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
@@ -211,18 +211,25 @@ body {
 }
 
 /* button */
+.hero-btn {
+  color: var(--white-color);
+  background: var(--blue-logo-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 
 .hero-btn {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   padding: 10px 32px;
   display: inline-block;
   min-width: 200px;
   min-height: 50px;
-  border-bottom: #000000;
   text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -230,7 +237,6 @@ body {
 }
 
 .hero {
-  background-image: url();
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -284,10 +290,6 @@ body {
 
   color: var(--grey-color);
 }
-.about,
-.about-team {
-  background: #e5e5e5;
-}
 
 .about-titlee {
   margin-bottom: 50px;
@@ -329,7 +331,13 @@ body {
 
 /* ======== Section team ========= */
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .team-item {
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -339,7 +347,6 @@ body {
   background: #f5f4fa;
 }
 .it-team {
-  margin-top: 94px;
   margin-bottom: 50px;
   font-family: 'Roboto';
   font-style: normal;
@@ -389,7 +396,7 @@ footer {
   color: var(--white-color);
 }
 .address {
-  margin-bottom: 60px;
+  margin-top: 20px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -421,9 +428,6 @@ footer {
 
 .profession {
   width: auto;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -471,27 +475,22 @@ footer {
 }
 .footer {
   padding-top: 60px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  padding-bottom: 60px;
 }
 
 .add {
-  width: 231px;
-  margin-top: 20px;
   margin-bottom: 9px;
 }
-
+.mail {
+  margin-bottom: 9px;
+}
 .address-mail {
   box-sizing: border-box;
   margin-right: auto;
-  width: 231px;
-  margin-bottom: 9px;
 }
 .address-phone {
   box-sizing: border-box;
   margin-right: auto;
-  width: 231px;
 }
 .footer-container {
   box-sizing: border-box;
@@ -504,23 +503,23 @@ footer {
 
 /* ======== portfolio ============== */
 
-.picture {
-  margin-bottom: 20px;
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 .img-portfolio {
+  text-align: center;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 50px;
   text-align: center;
 }
-.list-but {
-  display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
 
+.list-but {
+  margin-bottom: 50px;
+  display: inline-flex;
   align-items: center;
   column-gap: 8px;
 }
@@ -531,19 +530,22 @@ footer {
   gap: 30px;
 }
 
-.img-portfolio {
-  background-color: #e5e5e5;
+.textbild {
+  padding: 20px 24px;
 }
-.site {
-  margin-left: 24px;
-  margin-right: 24px;
-  width: 322px;
-  margin-bottom: 4px;
+
+.img-border {
+  background: #ffffff;
 }
 
 /* portfolio button */
+
+.button {
+  border: none;
+  padding: 6px 22px;
+}
+
 .all {
-  width: 73px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -565,6 +567,7 @@ footer {
 
 .all:hover,
 .all:focus {
+  color: #ffffff;
   background: var(--blue-logo-color);
 }
 
@@ -572,7 +575,6 @@ footer {
   color: var(--blue-logo-color);
 }
 .web {
-  width: 128px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -590,6 +592,7 @@ footer {
 
 .web:hover,
 .web:focus {
+  color: #ffffff;
   background: var(--blue-logo-color);
 }
 
@@ -612,6 +615,7 @@ footer {
 
 .app:hover,
 .app:focus {
+  color: #ffffff;
   background: var(--blue-logo-color);
 }
 
@@ -634,6 +638,7 @@ footer {
 
 .dis:hover,
 .dis:focus {
+  color: #ffffff;
   background: var(--blue-logo-color);
 }
 
@@ -655,6 +660,7 @@ footer {
 }
 .markt:hover,
 .markt:focus {
+  color: #ffffff;
   background: var(--blue-logo-color);
 }
 
