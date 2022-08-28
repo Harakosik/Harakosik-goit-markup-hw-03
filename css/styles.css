@@ -516,6 +516,11 @@ footer {
 .portfolio {
   text-align: center;
 }
+.border {
+  max-width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
 
 .list-but {
   margin-bottom: 50px;
